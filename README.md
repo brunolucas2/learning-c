@@ -14,16 +14,16 @@ Já a pasta `exercicios` contém listas de exercícios no formato Markdown, orga
 
 ## Fontes de estudo
 
+### YouTube
+
+[*Curso Completo de Programação em C — Do Zero ao Domínio em 10 Horas*](https://www.youtube.com/watch?v=EIGAc5mdPpE&t=7576s) — Canal **fromCaio**
+
+### Sites
+
+[*W3Schools*](https://www.w3schools.com/c/)
+
 ### Livro
 
 *Introdução à programação em C — Os primeiros passos de um desenvolvedor* — Casa do Código
 
 [![Capa do livro](./fontes/capa%20livro%20introducao%20c.png)](./fontes/Introdução%20à%20progamação%20em%20C%20-%20Os%20primeiros%20passos%20de%20um%20desenvolvedor.pdf)
-
-### YouTube
-
-*Curso Completo de Programação em C — Do Zero ao Domínio em 10 Horas* — Canal **fromCaio**
-
-### Sites
-
-*W3Schools*
