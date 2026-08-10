@@ -14,6 +14,11 @@ Já a pasta `exercicios` contém listas de exercícios no formato Markdown, orga
 
 ## Fontes de estudo
 
+### Livro
+
+*Introdução à programação em C — Os primeiros passos de um desenvolvedor* — Casa do Código
+
+[![Capa do livro](./fontes/capa%20livro%20introducao%20c.png)](./fontes/Introdução%20à%20progamação%20em%20C%20-%20Os%20primeiros%20passos%20de%20um%20desenvolvedor.pdf)
 
 ### YouTube
 
@@ -22,10 +27,3 @@ Já a pasta `exercicios` contém listas de exercícios no formato Markdown, orga
 ### Sites
 
 *W3Schools*
-
-### Livro
-
-*Introdução à programação em C — Os primeiros passos de um desenvolvedor* — Casa do Código
-
-[![Capa do livro](./fontes/capa-livro-introducao-c.png)](./fontes/introducao-programacao-c.pdf)
-
