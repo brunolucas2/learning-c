@@ -19,7 +19,7 @@ Já a pasta `exercicios` contém listas de exercícios no formato Markdown, orga
 *Introdução à programação em C — Os primeiros passos de um desenvolvedor* — Casa do Código
 
 <a href="./fontes/introducao-programacao-c.pdf">
-    <img src="./fontes/capa-livro.png" width="200">
+    <img src="./fontes/capa-livro-introducao-c.png" width="200">
 </a>
 
 ### YouTube
