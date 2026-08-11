@@ -36,7 +36,7 @@ Caso os dois sejam iguais, informe que são iguais.
 
 Leia três números inteiros e determine qual é o maior entre eles.
 
-**Conceitos:** condicionais encadeadas.
+**Conceitos:** condicionais encadeadas e condicionais aninhadas.
 
 ---
 
@@ -105,18 +105,7 @@ Informe se o número está ou não dentro do intervalo.
 
 ---
 
-## 11. Maior e menor
-
-Leia três números inteiros e informe:
-
-* o maior número;
-* o menor número.
-
-**Conceitos:** condicionais encadeadas e condicionais aninhadas.
-
----
-
-## 12. Classificação de triângulo
+## 11. Classificação de triângulo
 
 Leia os três lados de um triângulo e determine se ele é:
 
@@ -126,11 +115,11 @@ Leia os três lados de um triângulo e determine se ele é:
 
 Considere também se os três valores realmente podem formar um triângulo.
 
-**Conceitos:** `if`, `else if`, `else`, operadores lógicos.
+**Conceitos:** `if`, `else if`, `else`, operadores lógicos e condicionais compostas.
 
 ---
 
-## 13. Menu de operações
+## 12. Menu de operações
 
 Crie um menu:
 
@@ -148,11 +137,13 @@ Caso seja escolhida uma opção inexistente, informe que a opção é inválida.
 
 A opção `5` deve encerrar o programa sem realizar nenhuma operação.
 
-**Conceitos:** `switch`, `case`, `break`, `default`, `if`.
+Caso seja escolhida a opção de divisão, verifique se o segundo número é diferente de zero antes de realizar a operação.
+
+**Conceitos:** `switch`, `case`, `break`, `default`, `if`, condicionais aninhadas e operadores aritméticos.
 
 ---
 
-## 14. Verificação de senha
+## 13. Verificação de senha
 
 Defina uma senha numérica no programa.
 
@@ -168,11 +159,15 @@ Caso a senha esteja correta, mostre um segundo menu:
 
 Utilize uma estrutura adequada para tratar as opções do menu.
 
-**Conceitos:** `if`, `else`, `switch`, `case`, condicionais aninhadas.
+No caso de depósito, solicite o valor e atualize o saldo.
+
+Não permita depósitos com valor menor ou igual a zero.
+
+**Conceitos:** `if`, `else`, `switch`, `case`, condicionais aninhadas, operadores relacionais e operações aritméticas.
 
 ---
 
-## 15. Sistema de acesso
+## 14. Sistema de acesso
 
 Leia a idade de uma pessoa e se ela possui autorização (`1` para sim e `0` para não).
 
@@ -191,11 +186,13 @@ Depois de verificar o acesso, informe também o tipo de acesso:
 
 Utilize uma estrutura adequada para tratar o tipo de acesso.
 
-**Conceitos:** `if`, operadores lógicos, `switch`, `case`.
+Caso a pessoa não tenha idade ou autorização suficiente, o acesso deve ser negado antes de solicitar o tipo de acesso.
+
+**Conceitos:** `if`, `else`, operador lógico `&&`, `switch`, `case` e condicionais aninhadas.
 
 ---
 
-## 16. Temperatura
+## 15. Temperatura
 
 Leia uma temperatura em graus Celsius e classifique-a:
 
@@ -212,11 +209,19 @@ Depois, pergunte ao usuário qual escala deseja visualizar:
 
 Mostre a temperatura na escala escolhida.
 
-**Conceitos:** `if`, `else if`, `else`, `switch`, operações aritméticas.
+Utilize a conversão:
+
+```text
+F = (C × 9 / 5) + 32
+```
+
+Caso o usuário escolha uma opção inexistente, informe que a opção é inválida.
+
+**Conceitos:** `if`, `else if`, `else`, `switch`, `case`, operações aritméticas e validação de entrada.
 
 ---
 
-## 17. Salário e faixa salarial
+## 16. Salário e faixa salarial
 
 Leia o salário de uma pessoa e classifique-o:
 
@@ -238,108 +243,17 @@ No caso do reajuste, aplique:
 * Faixa 2: `7%`
 * Faixa 3: `5%`
 
-**Conceitos:** condicionais encadeadas, `switch`, operações aritméticas.
+Caso o usuário escolha uma opção inexistente, informe que a opção é inválida.
+
+**Conceitos:** condicionais encadeadas, `switch`, `case`, `default`, operações aritméticas e reutilização de valores calculados.
 
 ---
 
-## 18. Sistema de notas
-
-Leia três notas de um aluno e calcule a média.
-
-Informe:
-
-* média maior ou igual a `7`: Aprovado;
-* média entre `5` e `6.9`: Recuperação;
-* média menor que `5`: Reprovado.
-
-Além disso, verifique se alguma das notas individuais é igual a `0`. Nesse caso, o aluno deve ser reprovado independentemente da média.
-
-Depois, permita que o usuário escolha uma opção:
-
-```text
-1 - Mostrar média
-2 - Mostrar situação
-3 - Mostrar maior nota
-4 - Mostrar menor nota
-```
-
-**Conceitos:** condicionais compostas, operadores lógicos, `switch`, `if`.
-
----
-
-## 19. Verificação de intervalo
-
-Leia um número inteiro e informe em qual intervalo ele está:
-
-* menor que `0`;
-* entre `0` e `10`;
-* entre `11` e `20`;
-* maior que `20`.
-
-Depois, mostre um menu para o usuário escolher uma operação:
-
-```text
-1 - Verificar se é par ou ímpar
-2 - Verificar se é positivo ou negativo
-3 - Mostrar o dobro
-4 - Mostrar o triplo
-```
-
-**Conceitos:** `if`, `else if`, `switch`, operadores aritméticos e relacionais.
-
----
-
-## 20. Sistema de operações
-
-Crie um programa que apresente um menu:
-
-```text
-1 - Calculadora
-2 - Verificação de número
-3 - Classificação por idade
-4 - Sair
-```
-
-Cada opção deve executar uma funcionalidade diferente.
-
-### Calculadora
-
-Leia dois números e permita escolher:
-
-```text
-1 - Somar
-2 - Subtrair
-3 - Multiplicar
-4 - Dividir
-```
-
-### Verificação de número
-
-Leia um número e informe:
-
-* se é positivo, negativo ou zero;
-* se é par ou ímpar.
-
-### Classificação por idade
-
-Leia a idade e informe:
-
-* Criança;
-* Adolescente;
-* Adulto;
-* Idoso.
-
-A opção `4` deve encerrar o programa.
-
-**Conceitos:** `switch`, `case`, `if`, `else if`, `else`, condicionais aninhadas, operadores lógicos e aritméticos.
-
----
-
-## Progressão
+# Progressão
 
 Os exercícios estão organizados aproximadamente do mais simples para o mais complexo.
 
-### Básico
+## Básico
 
 * [ ] 1. Verificação de número positivo
 * [ ] 2. Número par ou ímpar
@@ -349,21 +263,17 @@ Os exercícios estão organizados aproximadamente do mais simples para o mais co
 * [ ] 6. Classificação por idade
 * [ ] 7. Verificação de maioridade
 
-### Intermediário
+## Intermediário
 
 * [ ] 8. Mês do ano
 * [ ] 9. Calculadora simples
 * [ ] 10. Número dentro de um intervalo
-* [ ] 11. Maior e menor
-* [ ] 12. Classificação de triângulo
-* [ ] 13. Menu de operações
-* [ ] 14. Verificação de senha
+* [ ] 11. Classificação de triângulo
+* [ ] 12. Menu de operações
 
-### Avançado
+## Avançado
 
-* [ ] 15. Sistema de acesso
-* [ ] 16. Temperatura
-* [ ] 17. Salário e faixa salarial
-* [ ] 18. Sistema de notas
-* [ ] 19. Verificação de intervalo
-* [ ] 20. Sistema de operações
+* [ ] 13. Verificação de senha
+* [ ] 14. Sistema de acesso
+* [ ] 15. Temperatura
+* [ ] 16. Salário e faixa salarial
