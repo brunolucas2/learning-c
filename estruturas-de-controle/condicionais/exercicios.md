@@ -119,29 +119,6 @@ Considere também se os três valores realmente podem formar um triângulo.
 
 ---
 
-## 12. Menu de operações
-
-Crie um menu:
-
-```text
-1 - Somar
-2 - Subtrair
-3 - Multiplicar
-4 - Dividir
-5 - Sair
-```
-
-Leia a opção escolhida pelo usuário e execute a operação correspondente.
-
-Caso seja escolhida uma opção inexistente, informe que a opção é inválida.
-
-A opção `5` deve encerrar o programa sem realizar nenhuma operação.
-
-Caso seja escolhida a opção de divisão, verifique se o segundo número é diferente de zero antes de realizar a operação.
-
-**Conceitos:** `switch`, `case`, `break`, `default`, `if`, condicionais aninhadas e operadores aritméticos.
-
----
 
 ## 13. Verificação de senha
 
