@@ -246,7 +246,6 @@ Os exercícios estão organizados aproximadamente do mais simples para o mais co
 * [ ] 9. Calculadora simples
 * [ ] 10. Número dentro de um intervalo
 * [ ] 11. Classificação de triângulo
-* [ ] 12. Menu de operações
 
 ## Avançado
 
