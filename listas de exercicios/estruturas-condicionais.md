@@ -119,6 +119,38 @@ int main() {
 * 60-69: 'D'
 * Abaixo de 60: 'F'
 
+### Resposta:
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    float nota;
+
+    printf("Insira sua nota abaixo\n")
+    printf("Nota: ");
+    scanf("%f", &nota);
+
+    if (nota < 0 || nota > 100)
+    {
+        printf("Numero invalido");
+        return 1;
+    }
+
+    if (nota >= 90 && nota <=  100)
+        printf("A");
+    else if (nota >= 80 && nota < 90)
+        printf("B");
+    else if (nota >= 70 && nota < 79)
+        printf("C");
+    else if (nota >= 60 && nota < 70)
+        printf("D");
+
+    return 0;
+}
+```
+
 ## 5. Faça um progama que peça para o usuário digitar um número entre 2 e 10 e informe se ele é primo ou não utilizando o comando `switch`.
 
 ### Resposta:
