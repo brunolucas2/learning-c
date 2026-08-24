@@ -1,6 +1,6 @@
 # Exercícios de Prática — Estruturas de Repetição
 
-Exercícios destinados à prática das estruturas de repetição em C.
+Exercícios destinados à prática das estruturas de repetição na linguagem C.
 
 As soluções devem ser implementadas individualmente na pasta `tasks`.
 
@@ -26,19 +26,11 @@ Mostre os números de `10` até `1`.
 
 Mostre todos os números pares entre `1` e `100`.
 
-**Conceitos:** `for`, operador `%`.
+**Conceitos:** `for` e operador `%`.
 
 ---
 
-## 4. Números ímpares
-
-Mostre todos os números ímpares entre `1` e `100`.
-
-**Conceitos:** `for`, operador `%`.
-
----
-
-## 5. Tabuada
+## 4. Tabuada
 
 Leia um número inteiro e mostre sua tabuada de `1` até `10`.
 
@@ -55,7 +47,7 @@ Exemplo:
 
 ---
 
-## 6. Soma de números
+## 5. Soma de números
 
 Leia `10` números inteiros e calcule a soma de todos eles.
 
@@ -63,7 +55,7 @@ Leia `10` números inteiros e calcule a soma de todos eles.
 
 ---
 
-## 7. Média de números
+## 6. Média de números
 
 Leia `5` números e calcule a média deles.
 
@@ -71,17 +63,15 @@ Leia `5` números e calcule a média deles.
 
 ---
 
-## 8. Contagem de positivos e negativos
+## 7. Contagem de positivos e negativos
 
-Leia `10` números inteiros e informe quantos são positivos e quantos são negativos.
+Leia `10` números inteiros e informe quantos são positivos, negativos e iguais a zero.
 
-Considere o `0` separadamente.
-
-**Conceitos:** `for`, `if`, contadores.
+**Conceitos:** `for`, `if` e contadores.
 
 ---
 
-## 9. Maior número
+## 8. Maior número
 
 Leia `10` números inteiros e encontre o maior valor digitado.
 
@@ -89,15 +79,7 @@ Leia `10` números inteiros e encontre o maior valor digitado.
 
 ---
 
-## 10. Menor número
-
-Leia `10` números inteiros e encontre o menor valor digitado.
-
-**Conceitos:** repetição e comparação.
-
----
-
-## 11. Fatorial
+## 9. Fatorial
 
 Leia um número inteiro positivo e calcule seu fatorial.
 
@@ -108,37 +90,38 @@ Exemplo:
 5! = 120
 ```
 
-**Conceitos:** `for`, acumuladores.
+**Conceitos:** `for` e acumuladores.
 
 ---
 
-## 12. Potência
+## 10. Potência
 
 Leia uma base e um expoente inteiro positivo.
 
 Calcule a potência utilizando repetição, sem utilizar uma função pronta para potência.
 
+Exemplo:
+
+```text
+Base: 2
+Expoente: 3
+
+Resultado: 8
+```
+
 **Conceitos:** repetição e acumuladores.
 
 ---
 
-## 13. Soma dos números pares
+## 11. Soma dos números pares
 
-Leia um número `N` e calcule a soma de todos os números pares entre `1` e `N`.
+Leia um número inteiro `N` e calcule a soma de todos os números pares entre `1` e `N`.
 
-**Conceitos:** `for`, `if`, acumuladores.
-
----
-
-## 14. Soma dos números ímpares
-
-Leia um número `N` e calcule a soma de todos os números ímpares entre `1` e `N`.
-
-**Conceitos:** `for`, `if`, acumuladores.
+**Conceitos:** `for`, `if`, operador `%` e acumuladores.
 
 ---
 
-## 15. Divisores de um número
+## 12. Divisores de um número
 
 Leia um número inteiro e mostre todos os seus divisores.
 
@@ -160,61 +143,73 @@ Divisores:
 
 ---
 
-## 16. Quantidade de divisores
+## 13. Quantidade de divisores
 
 Leia um número inteiro e informe quantos divisores ele possui.
-
-**Conceitos:** repetição, `%` e contadores.
-
----
-
-## 17. Número primo
-
-Leia um número inteiro e determine se ele é primo.
-
-**Conceitos:** repetição, `%`, contadores e condicionais.
-
----
-
-## 18. Sequência de Fibonacci
-
-Leia um número `N` e mostre os primeiros `N` termos da sequência de Fibonacci.
 
 Exemplo:
 
 ```text
-0 1 1 2 3 5 8 13 21...
+Número: 12
+Quantidade de divisores: 6
+```
+
+**Conceitos:** repetição, operador `%` e contadores.
+
+---
+
+## 14. Número primo
+
+Leia um número inteiro e determine se ele é primo.
+
+Um número primo possui exatamente dois divisores positivos: `1` e ele mesmo.
+
+Exemplo:
+
+```text
+Número: 7
+7 é um número primo.
+```
+
+**Conceitos:** repetição, operador `%`, contadores e condicionais.
+
+---
+
+## 15. Sequência de Fibonacci
+
+Leia um número inteiro `N` e mostre os primeiros `N` termos da sequência de Fibonacci.
+
+Exemplo:
+
+```text
+Quantidade de termos: 9
+
+0 1 1 2 3 5 8 13 21
 ```
 
 **Conceitos:** repetição e atualização de variáveis.
 
 ---
 
-## 19. Média até número negativo
+## 16. Média até número negativo
 
 Leia números continuamente e calcule a média dos números positivos digitados.
 
-A leitura deve parar quando o usuário informar um número negativo.
+A leitura deve parar quando o usuário informar um número negativo. O número negativo não deve fazer parte da média.
 
-O número negativo não deve fazer parte da média.
+Exemplo:
+
+```text
+Números: 10 5 15 -1
+
+Média: 10
+```
 
 **Conceitos:** `while`, condição de parada e acumuladores.
 
 ---
 
-## 20. Senha
-
-Crie uma senha definida no programa.
-
-Peça a senha ao usuário repetidamente até que ele informe a senha correta.
-
-Quando acertar, mostre uma mensagem de acesso permitido.
-
-**Conceitos:** `while`, condição de parada e condicionais.
-
----
-
-## 21. Menu interativo
+## 17. Menu interativo
 
 Crie um menu que continue sendo exibido até que o usuário escolha a opção de sair:
 
@@ -226,105 +221,155 @@ Crie um menu que continue sendo exibido até que o usuário escolha a opção de
 5 - Sair
 ```
 
-O programa deve executar a operação escolhida e depois retornar ao menu.
+O programa deve solicitar dois números, executar a operação escolhida e depois retornar ao menu.
+
+Na operação de divisão, verifique se o segundo número é diferente de zero.
 
 **Conceitos:** `while`, condicionais e operações aritméticas.
 
 ---
 
-## 22. Validação de entrada
-
-Peça ao usuário um número entre `1` e `10`.
-
-Enquanto o usuário informar um valor inválido, continue solicitando um novo número.
-
-Quando o valor for válido, mostre-o na tela.
-
-**Conceitos:** `while` e validação de entrada.
-
----
-
-## 23. Número secreto
+## 18. Número secreto
 
 Defina um número secreto no programa.
 
-Peça ao usuário para tentar adivinhar o número.
-
-Enquanto ele não acertar, informe se o palpite foi maior ou menor que o número secreto.
+Peça ao usuário para tentar adivinhar o número. Enquanto ele não acertar, informe se o palpite foi maior ou menor que o número secreto.
 
 Ao acertar, mostre uma mensagem de sucesso.
+
+Exemplo:
+
+```text
+Digite seu palpite: 30
+O número secreto é maior.
+
+Digite seu palpite: 70
+O número secreto é menor.
+
+Digite seu palpite: 50
+Você acertou!
+```
 
 **Conceitos:** `while`, condicionais e comparação.
 
 ---
 
-## 24. Soma até zero
+## 19. Soma até zero
 
 Leia números inteiros continuamente e some todos eles.
 
-A execução deve terminar quando o usuário digitar `0`.
+A execução deve terminar quando o usuário digitar `0`. O número `0` não deve ser adicionado à soma.
 
-O `0` não deve ser adicionado à soma.
+Exemplo:
+
+```text
+Números: 5 10 8 0
+
+Soma: 23
+```
 
 **Conceitos:** `while`, condição de parada e acumuladores.
 
 ---
 
-## 25. Repetição com `do while`
+## 20. Validação de entrada com `do while`
 
-Faça um programa que peça ao usuário um número entre `1` e `100`.
+Peça ao usuário um número entre `1` e `100`.
 
-Enquanto o valor estiver fora desse intervalo, solicite novamente.
+Enquanto o valor estiver fora desse intervalo, solicite um novo número.
 
-Utilize obrigatoriamente `do while`.
+Utilize obrigatoriamente a estrutura `do while`.
+
+Exemplo:
+
+```text
+Digite um número entre 1 e 100: 150
+Valor inválido.
+
+Digite um número entre 1 e 100: -4
+Valor inválido.
+
+Digite um número entre 1 e 100: 50
+Valor válido: 50
+```
 
 **Conceitos:** `do while` e validação de entrada.
 
 ---
 
-## 26. Contagem de tentativas
+## 21. Contagem de tentativas para acertar a senha
 
-Crie um programa que permita ao usuário realizar no máximo `5` tentativas para acertar uma senha.
+Crie uma senha dentro do programa.
 
-Informe quantas tentativas ainda estão disponíveis.
+O usuário terá no máximo `5` tentativas para acertá-la. Após cada erro, informe quantas tentativas ainda estão disponíveis.
 
-Se acertar antes das `5` tentativas, encerre o programa.
+Se o usuário acertar antes de utilizar todas as tentativas, encerre o programa e mostre uma mensagem de acesso permitido.
 
-**Conceitos:** `for` ou `while`, contador e condição de parada.
-
----
-
-## 27. Números primos em um intervalo
-
-Leia dois números inteiros e mostre todos os números primos existentes entre eles.
-
-**Conceitos:** loops aninhados, `%` e condicionais.
-
----
-
-## 28. Tabuadas
-
-Mostre as tabuadas de `1` até `10`.
+Caso todas as tentativas sejam utilizadas, informe que o acesso foi bloqueado.
 
 Exemplo:
 
 ```text
+Digite a senha: 1234
+Senha incorreta. Restam 4 tentativas.
+
+Digite a senha: 5678
+Acesso permitido.
+```
+
+**Conceitos:** `for` ou `while`, contadores, condicionais e condição de parada.
+
+---
+
+## 22. Números primos em um intervalo
+
+Leia dois números inteiros e mostre todos os números primos existentes entre eles.
+
+Exemplo:
+
+```text
+Início: 1
+Fim: 20
+
+Números primos:
+2 3 5 7 11 13 17 19
+```
+
+**Conceitos:** loops aninhados, operador `%` e condicionais.
+
+---
+
+## 23. Tabuadas de 1 até 10
+
+Mostre todas as tabuadas de `1` até `10`.
+
+Exemplo:
+
+```text
+Tabuada do 1:
+
 1 x 1 = 1
 1 x 2 = 2
 ...
+1 x 10 = 10
+
+Tabuada do 2:
 
 2 x 1 = 2
 2 x 2 = 4
 ...
+2 x 10 = 20
 ```
+
+Continue até a tabuada do número `10`.
 
 **Conceitos:** loops aninhados.
 
 ---
 
-## 29. Triângulo de asteriscos
+## 24. Triângulo de asteriscos
 
-Leia um número `N` e desenhe um triângulo utilizando `*`.
+Leia um número inteiro positivo `N` e desenhe um triângulo utilizando o caractere `*`.
 
 Para `N = 5`:
 
@@ -340,9 +385,9 @@ Para `N = 5`:
 
 ---
 
-## 30. Pirâmide de asteriscos
+## 25. Pirâmide de asteriscos
 
-Leia um número `N` e desenhe uma pirâmide utilizando `*`.
+Leia um número inteiro positivo `N` e desenhe uma pirâmide utilizando o caractere `*`.
 
 Para `N = 5`:
 
@@ -360,41 +405,36 @@ Para `N = 5`:
 
 # Progressão
 
-### Básico
+## Básico
 
 * [ ] 1. Contagem de 1 até 10
 * [ ] 2. Contagem regressiva
 * [ ] 3. Números pares
-* [ ] 4. Números ímpares
-* [ ] 5. Tabuada
-* [ ] 6. Soma de números
-* [ ] 7. Média de números
-* [ ] 8. Contagem de positivos e negativos
-* [ ] 9. Maior número
-* [ ] 10. Menor número
+* [ ] 4. Tabuada
+* [ ] 5. Soma de números
+* [ ] 6. Média de números
+* [ ] 7. Contagem de positivos e negativos
+* [ ] 8. Maior número
 
-### Intermediário
+## Intermediário
 
-* [ ] 11. Fatorial
-* [ ] 12. Potência
-* [ ] 13. Soma dos números pares
-* [ ] 14. Soma dos números ímpares
-* [ ] 15. Divisores de um número
-* [ ] 16. Quantidade de divisores
-* [ ] 17. Número primo
-* [ ] 18. Sequência de Fibonacci
-* [ ] 19. Média até número negativo
-* [ ] 20. Senha
+* [ ] 9. Fatorial
+* [ ] 10. Potência
+* [ ] 11. Soma dos números pares
+* [ ] 12. Divisores de um número
+* [ ] 13. Quantidade de divisores
+* [ ] 14. Número primo
+* [ ] 15. Sequência de Fibonacci
+* [ ] 16. Média até número negativo
 
-### Avançado
+## Avançado
 
-* [ ] 21. Menu interativo
-* [ ] 22. Validação de entrada
-* [ ] 23. Número secreto
-* [ ] 24. Soma até zero
-* [ ] 25. Repetição com `do while`
-* [ ] 26. Contagem de tentativas
-* [ ] 27. Números primos em um intervalo
-* [ ] 28. Tabuadas
-* [ ] 29. Triângulo de asteriscos
-* [ ] 30. Pirâmide de asteriscos
+* [ ] 17. Menu interativo
+* [ ] 18. Número secreto
+* [ ] 19. Soma até zero
+* [ ] 20. Validação de entrada com `do while`
+* [ ] 21. Contagem de tentativas para acertar a senha
+* [ ] 22. Números primos em um intervalo
+* [ ] 23. Tabuadas de 1 até 10
+* [ ] 24. Triângulo de asteriscos
+* [ ] 25. Pirâmide de asteriscos
