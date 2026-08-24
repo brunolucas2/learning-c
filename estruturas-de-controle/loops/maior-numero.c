@@ -3,7 +3,7 @@
 int main()
 {
     int maior = 0, input;
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < 108; i++)
     {
         printf("Informe um numero inteiro: ");
         scanf("%i", &input);
