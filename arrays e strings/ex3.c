@@ -7,7 +7,6 @@ int main()
         {10, 20, 30, 40, 50, 60},
         {7, 7, 7, 7, 7, 7},
         {-1, -2, -3, -4, -5, -6}};
-    int left, right;
     for (int i = 0; i < sizeof(testes) / sizeof(testes[0]); i++)
     {
         int last = testes[i][sizeof(testes[0]) / sizeof(testes[0][0]) - 1];
